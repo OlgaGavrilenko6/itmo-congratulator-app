@@ -24,3 +24,7 @@
 - в [helpers](https://github.com/OlgaGavrilenko6/itmo-congratulator-app/tree/main/backend/components/helpers) важным файлом является [builder](https://github.com/OlgaGavrilenko6/itmo-congratulator-app/blob/main/backend/components/helpers/builder.py), который хранит в себе составление промпта для генерации подарков и персонализированного поздравления.
 
 Главным файлом для данного разделя является [server.py](https://github.com/OlgaGavrilenko6/itmo-congratulator-app/blob/main/backend/components/server.py), который отображает всю архитектуру приложения и отвечает за бесперебойную работу.
+
+## Результат
+
+С приложением можно ознакомиться по следующей ссылке: [AI-Поздравлятор](https://vk.com/app52391607)
