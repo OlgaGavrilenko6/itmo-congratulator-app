@@ -4,7 +4,7 @@ import requests
 def giga_gen_answer(token, prompt):
   url = "https://gigachat.devices.sberbank.ru/api/v1/chat/completions"
   payload = json.dumps({
-      "model": "GigaChat",
+      "model": "GigaChat Max",
       "messages": [
           {
               "role": "system",
