@@ -13,4 +13,14 @@
 - [main.tsx](https://github.com/OlgaGavrilenko6/itmo-congratulator-app/blob/main/frontend/src/main.tsx) этот файл инициализирует приложение, которое будет открывать "Вконтакте";
 - [routes.tsx](https://github.com/OlgaGavrilenko6/itmo-congratulator-app/blob/main/frontend/src/routes.ts) этот файл содержит в себе всю информацию о панелях приложения и запускает переходы между ними.
 
+Остальные файлы отвечают за конфигурацию приложения, его подключение к социальной сети и т.д.
+
+
 ### Backend
+Папка [backend](https://github.com/OlgaGavrilenko6/itmo-congratulator-app/tree/main/backend) содержит в себе всю серверную часть приложения. 
+
+Папка [components](https://github.com/OlgaGavrilenko6/itmo-congratulator-app/tree/main/backend/components) содержит в себе следующие файлы: 
+- [apis](https://github.com/OlgaGavrilenko6/itmo-congratulator-app/tree/main/backend/components/apis), которая отвечает за получение токенов доступа для GigaChat, VK, а также хранит файл с запросом для генерации списка подарков и поздравления. Помимо этого в нем лежит файл с запросом на получение данных о выбранном пользователе в приложении.
+- в [helpers](https://github.com/OlgaGavrilenko6/itmo-congratulator-app/tree/main/backend/components/helpers) важным файлом является [builder](https://github.com/OlgaGavrilenko6/itmo-congratulator-app/blob/main/backend/components/helpers/builder.py), который хранит в себе составление промпта для генерации подарков и персонализированного поздравления.
+
+Главным файлом для данного разделя является [server.py](https://github.com/OlgaGavrilenko6/itmo-congratulator-app/blob/main/backend/components/server.py), который отображает всю архитектуру приложения и отвечает за бесперебойную работу.
